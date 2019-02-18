@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.cpp \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/Demangle.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/FBString.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/hash/Hash.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/hash/SpookyHashV1.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/hash/SpookyHashV2.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/memory/Malloc.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/memory/detail/MallocImpl.h \
+  /Users/hoangkhai/Desktop/AppFood/node_modules/react-native/React/../third-party/folly-2018.10.22.00/folly/detail/Demangle.h
