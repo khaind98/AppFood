@@ -5,6 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>02D4B872-731D-42D8-A6AD-CF2DCE594388</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>02D4B872-731D-42D8-A6AD-CF2DCE594388.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppFood project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppFood</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>572432978.87088299</real>
+			<key>timeStoppedRecording</key>
+			<real>572432980.06230605</real>
+			<key>title</key>
+			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>02D4B872-731D-42D8-A6AD-CF2DCE594388</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

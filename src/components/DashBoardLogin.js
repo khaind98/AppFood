@@ -8,9 +8,49 @@ import {
 } from 'react-native';
 import Button from 'react-native-button';
 
+const PASSWORD = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+$/;
+const email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+
 export default class DashBoardLogin extends Component {
 
+  constructor() {
+    super();
+    this.state = {
+      errorMessage: {
+        email: [],
+        passWord: []
+      },
+        emailValidate: true,
+        email: "",
+        pass: "",
+    }
+  }
+
+
+  _isSubmitLogin () {
+     this._validate();
+  }
+
+
+  _validate (text, type) {
+    if ( type == 'email' )
+    {
+      if (email.test(text))
+      {
+        this.setState({
+          emailValidate: false
+        })
+      } else {
+        this.setState({
+          emailValidate: false
+        })
+      }
+    }
+  }
+
   render() {
+    console.log(this.state.email);
     return (
       <View style={style.view}>
         <View style={{
@@ -24,39 +64,49 @@ export default class DashBoardLogin extends Component {
               marginBottom: 1,
               marginLeft: 12,
               color: '#aaaaaf',
-            }}>Email</Text>
+            }}>
+              Email
+            </Text>
             <TextInput
               style={style.textInput}
               keyboardType='email-address'
               placeholder='PassWord'
               returnKeyType='done'
               onSubmitEditing={Keyboard.dismiss}
+              onChangeText={(text) => this._validate(text, 'email')}
             />
             <Text style={{
               marginBottom: 1,
               marginLeft: 12,
               color: '#aaaaaf',
-            }}>Password</Text>
+            }}>
+              Password
+            </Text>
             <TextInput
               style={style.textInput}
               keyboardType='email-address'
               placeholder='PassWord'
               returnKeyType='done'
               onSubmitEditing={Keyboard.dismiss}
+              onChangeText={(text) => this.setState({pass: text})}
+              value={this.state.pass}
             />
             <Button style={style.forgotPass}>Forgot PassWord ?</Button>
           </View>
           <View style={{flex: 1}}>
             <View style={{flex: 80}}>
+
               <Button
                 containerStyle={style.button}
                 style={{
                   color: '#ffffff',
                   paddingTop: 2,
                 }}
+                onPress={this._isSubmitLogin()}
               >
                 Login
               </Button>
+
               <Text style={{
                 fontSize: 14,
                 textAlign: 'center',
@@ -81,7 +131,6 @@ export default class DashBoardLogin extends Component {
               </View>
             </View>
           </View>
-
         </View>
       </View>
     )
