@@ -95,7 +95,10 @@ const DetailScreen = createStackNavigator(
       }),
     },
     DetailNewScreen :{
-      screen: DetailNew
+      screen: DetailNew,
+      navigationOptions: () => ({
+        header: null
+      }),
     },
     DetailBreakFast: {
       screen: DetailBreakFast

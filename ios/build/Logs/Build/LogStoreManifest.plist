@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>02D4B872-731D-42D8-A6AD-CF2DCE594388</key>
+		<key>50EA4AD8-0163-4FE7-B247-08973C8DB138</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>02D4B872-731D-42D8-A6AD-CF2DCE594388.xcactivitylog</string>
+			<string>50EA4AD8-0163-4FE7-B247-08973C8DB138.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>572432978.87088299</real>
+			<real>572761141.11735594</real>
 			<key>timeStoppedRecording</key>
-			<real>572432980.06230605</real>
+			<real>572761142.62298596</real>
 			<key>title</key>
 			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>02D4B872-731D-42D8-A6AD-CF2DCE594388</string>
+			<string>50EA4AD8-0163-4FE7-B247-08973C8DB138</string>
+		</dict>
+		<key>83721C68-4BAA-4950-BA4E-BA1DC53DED47</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>83721C68-4BAA-4950-BA4E-BA1DC53DED47.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppFood project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppFood</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>572761905.64631999</real>
+			<key>timeStoppedRecording</key>
+			<real>572761907.37572503</real>
+			<key>title</key>
+			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>83721C68-4BAA-4950-BA4E-BA1DC53DED47</string>
 		</dict>
 	</dict>
 </dict>

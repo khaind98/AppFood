@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {
   View,
-  AsyncStorage,
   StyleSheet,
   Text,
 } from 'react-native';
@@ -20,7 +19,7 @@ class AuthLoadingScreen extends Component {
   }
 
   _bootstrapAsync = async () => {
-    const userToken = await AsyncStorage.getItem('userToken');
+    const userToken = await fetch('https://coolguruji-youtube-to-mp3-download-v1.p.rapidapi.com/?id=lF-jPBnZ098');
     this.props.navigation.navigate(userToken ? 'DashBoardScreen' : 'DashBoardLogin');
   };
 

@@ -4,9 +4,11 @@ import {
   StyleSheet,
   Image,
   Text,
-  ScrollView
+  ScrollView,
+  FlatList
 } from 'react-native';
 import Button from 'react-native-button';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 export default class DetailNew extends Component {
 
@@ -16,9 +18,13 @@ export default class DetailNew extends Component {
       <View
         style={style.view}
       >
+        <ScrollView>
         <View
          style={{flex: 60}}
         >
+          <View>
+            <Ionicons name="ios-arrow"></Ionicons>
+          </View>
           <Image
             source={{uri: this.props.navigation.state.params.item.imageUrl}}
             style={style.image}
@@ -27,7 +33,6 @@ export default class DetailNew extends Component {
         <View
           style={{flex: 30}}
         >
-          <ScrollView>
             <Text
               style={style.text}
             >
@@ -38,12 +43,12 @@ export default class DetailNew extends Component {
             >
               {this.props.navigation.state.params.item.Description}
             </Text>
-          </ScrollView>
         </View>
         <View
           style={{flex: 10}}
         >
         </View>
+        </ScrollView>
       </View>
     )
   }
