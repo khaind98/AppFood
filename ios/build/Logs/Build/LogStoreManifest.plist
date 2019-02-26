@@ -6,35 +6,6 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>50EA4AD8-0163-4FE7-B247-08973C8DB138</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>50EA4AD8-0163-4FE7-B247-08973C8DB138.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppFood project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppFood</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>572761141.11735594</real>
-			<key>timeStoppedRecording</key>
-			<real>572761142.62298596</real>
-			<key>title</key>
-			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>50EA4AD8-0163-4FE7-B247-08973C8DB138</string>
-		</dict>
 		<key>83721C68-4BAA-4950-BA4E-BA1DC53DED47</key>
 		<dict>
 			<key>className</key>
@@ -63,6 +34,35 @@
 			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
 			<key>uniqueIdentifier</key>
 			<string>83721C68-4BAA-4950-BA4E-BA1DC53DED47</string>
+		</dict>
+		<key>BE59338C-6FF4-4519-9469-5C16E0DC7F2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BE59338C-6FF4-4519-9469-5C16E0DC7F2F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppFood project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppFood</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>572785427.07720602</real>
+			<key>timeStoppedRecording</key>
+			<real>572785525.66455901</real>
+			<key>title</key>
+			<string>Building project AppFood with scheme AppFood and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>BE59338C-6FF4-4519-9469-5C16E0DC7F2F</string>
 		</dict>
 	</dict>
 </dict>
